@@ -117,6 +117,32 @@
 ---
 
 ### 6.5 Strikethrough
+- 단어에 취소선을 적용하고 싶을 때 사용
+- **사용법** : 취소선을 긋고자하는 단어나 문장 앞뒤에 물결표시(~) 두개를 연속으로 추가해준다.
+    > 
+        Hi. My name is ~~Lia~~ Seobin. Nice to meet you.
+        
+    >
+
+        Hi.
+        My name is ~~Lia
+        from Seoul.~~.
+        Seobin. Nice to meet you.
+    
+    > Hi. My name is ~~Lia~~ Seobin. Nice to meet you.
+     
+    > Hi.
+    > My name is ~~Lia
+    > from Seoul.~~.
+    > Seobin. Nice to meet you.
+
+
+- **주의점** : 물결표시를 적용하고자하는 단어와 띄어쓰면 안된다. 무조건 붙여써야 한다.
+    > 
+        Hi. My name is ~~ Lia ~~ Seobin. Nice to meet you. (X)
+        
+    > Hi. My name is ~~ Lia ~~ Seobin. Nice to meet you.
+
 
 ---
 
