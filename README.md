@@ -197,3 +197,22 @@
     > <blockquote>
     >  <xmp> is disallowed.  <XMP> is also disallowed.
     > </blockquote>
+
+---
+
+### + Fenced code blocks
+- 코드블록을 설정하고 싶을 때 사용
+- **사용법** : 적용하고자 하는 코드의 맨 위아래 라인에 backticks(`) 기호 3개를 추가해준다.
+    > 
+        ```
+        void myfunction(void){
+            printf("Hi\n");
+        }
+        ```
+   
+   ```
+   void myfunction(void){
+   printf("Hi\n");
+   }
+   ```
+        
