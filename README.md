@@ -154,6 +154,12 @@
         www.google.com
     
     > www.google.com
+ 
+- **특징** : 이메일 주소에도 적용된다.
+    >
+        o0oseobin@naver.com
+        
+    > o0oseobin@naver.com
    
 - **자동URL연결 차단** : URL 앞뒤에 backstick(`)기호를 적용한다.
     > 
@@ -164,4 +170,30 @@
 ---
 
 ### 6.11 Disallowed Raw HTML
-ㄷ
+- HTML 출력을 할때 몇몇 HTML 태그 확장을 가능하게 한다.
+- **목록**
+    >
+        - <title>
+        - <textarea>
+        - <style>
+        - <xmp>
+        - <iframe>
+        - <noembed>
+        - <noframes>
+        - <script>
+        - <plaintext>
+    
+- '<'기호를 '&lt;'로 대체하면서 적용된다.
+- **사용예시**
+    >
+        <strong> <title> <style> <em>  
+
+        <blockquote>
+            <xmp> is disallowed.  <XMP> is also disallowed.
+        </blockquote>
+      
+    > <strong> <title> <style> <em>
+    >
+    > <blockquote>
+    >  <xmp> is disallowed.  <XMP> is also disallowed.
+    > </blockquote>
