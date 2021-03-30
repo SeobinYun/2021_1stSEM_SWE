@@ -147,7 +147,20 @@
 ---
 
 ### 6.9 Autolinks
-
+- 앞서 언급한 링크 방법과 달리 자동 링크 연결을 지원한다.
+- 확장된 www autolink는 'www.'이라는 단어를 인식해 자동으로 링크로 연결될 수 있게 도와준다.
+- **사용법** : 그냥 URL을 쓰면 된다.
+    > 
+        www.google.com
+    
+    > www.google.com
+   
+- **자동URL연결 차단** : URL 앞뒤에 backstick(`)기호를 적용한다.
+    > 
+        `www.google.com`
+        
+    > `www.gooogle.com`
+   
 ---
 
 ### 6.11 Disallowed Raw HTML
