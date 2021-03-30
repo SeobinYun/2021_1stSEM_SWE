@@ -131,10 +131,10 @@
     
     > Hi. My name is ~~Lia~~ Seobin. Nice to meet you.
      
-    > Hi.
-    > My name is ~~Lia
-    > from Seoul.~~.
-    > Seobin. Nice to meet you.
+    > Hi.  
+    > My name is ~~Lia  
+    > from Seoul.~~  
+    > Seobin. Nice to meet you.  
 
 
 - **주의점** : 물결표시를 적용하고자하는 단어와 띄어쓰면 안된다. 무조건 붙여써야 한다.
